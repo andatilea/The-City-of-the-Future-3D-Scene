@@ -1,0 +1,63 @@
+﻿main.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function "void __cdecl renderScene(void)" (?renderScene@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function "void __cdecl initOpenGLState(void)" (?initOpenGLState@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glCullFace@4 referenced in function "void __cdecl initOpenGLState(void)" (?initOpenGLState@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glDepthFunc@4 referenced in function "void __cdecl initOpenGLState(void)" (?initOpenGLState@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glEnable@4 referenced in function "void __cdecl initOpenGLState(void)" (?initOpenGLState@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glFrontFace@4 referenced in function "void __cdecl initOpenGLState(void)" (?initOpenGLState@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glGetError@0 referenced in function "unsigned int __cdecl glCheckError_(char const *,int)" (?glCheckError_@@YAIPBDH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__glViewport@16 referenced in function "void __cdecl initOpenGLState(void)" (?initOpenGLState@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function __catch$_main$0
+main.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl keyboardCallback(struct GLFWwindow *,int,int,int,int)" (?keyboardCallback@@YAXPAUGLFWwindow@@HHHH@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwSetWindowSizeCallback referenced in function "void __cdecl setWindowCallbacks(void)" (?setWindowCallbacks@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function __catch$_main$0
+main.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "void __cdecl setWindowCallbacks(void)" (?setWindowCallbacks@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function "void __cdecl setWindowCallbacks(void)" (?setWindowCallbacks@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function __catch$_main$0
+main.obj : error LNK2001: unresolved external symbol ___glewGetUniformLocation
+main.obj : error LNK2001: unresolved external symbol ___glewUniform3fv
+main.obj : error LNK2001: unresolved external symbol ___glewUniformMatrix3fv
+main.obj : error LNK2001: unresolved external symbol ___glewUniformMatrix4fv
+Mesh.obj : error LNK2019: unresolved external symbol __imp__glBindTexture@8 referenced in function "public: void __thiscall gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QAEXVShader@2@@Z)
+Model3D.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+Mesh.obj : error LNK2019: unresolved external symbol __imp__glDrawElements@16 referenced in function "public: void __thiscall gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QAEXVShader@2@@Z)
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewActiveTexture
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewGetUniformLocation
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewUniform1i
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+Model3D.obj : error LNK2019: unresolved external symbol __imp__glDeleteTextures@8 referenced in function "public: __thiscall gps::Model3D::~Model3D(void)" (??1Model3D@gps@@QAE@XZ)
+Model3D.obj : error LNK2019: unresolved external symbol __imp__glGenTextures@8 referenced in function "private: unsigned int __thiscall gps::Model3D::ReadTextureFromFile(char const *)" (?ReadTextureFromFile@Model3D@gps@@AAEIPBD@Z)
+Model3D.obj : error LNK2019: unresolved external symbol __imp__glTexImage2D@36 referenced in function "private: unsigned int __thiscall gps::Model3D::ReadTextureFromFile(char const *)" (?ReadTextureFromFile@Model3D@gps@@AAEIPBD@Z)
+Model3D.obj : error LNK2019: unresolved external symbol __imp__glTexParameteri@12 referenced in function "private: unsigned int __thiscall gps::Model3D::ReadTextureFromFile(char const *)" (?ReadTextureFromFile@Model3D@gps@@AAEIPBD@Z)
+Model3D.obj : error LNK2001: unresolved external symbol __imp____glewDeleteBuffers
+Model3D.obj : error LNK2001: unresolved external symbol __imp____glewGenerateMipmap
+Model3D.obj : error LNK2001: unresolved external symbol __imp____glewDeleteVertexArrays
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewDeleteShader
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+Window.obj : error LNK2019: unresolved external symbol __imp__glGetString@4 referenced in function "public: void __thiscall gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QAEXHHPBD@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function "public: void __thiscall gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QAEXHHPBD@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "public: void __thiscall gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QAEXHHPBD@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "public: void __thiscall gps::Window::Delete(void)" (?Delete@Window@gps@@QAEXXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "public: void __thiscall gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QAEXHHPBD@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "public: void __thiscall gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QAEXHHPBD@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function "public: void __thiscall gps::Window::Delete(void)" (?Delete@Window@gps@@QAEXXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function "public: void __thiscall gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QAEXHHPBD@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "public: void __thiscall gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QAEXHHPBD@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function "public: void __thiscall gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QAEXHHPBD@Z)
+Window.obj : error LNK2001: unresolved external symbol __imp__glewExperimental
+C:\Users\user\source\repos\OpenGL_Project\Debug\OpenGL_Project.exe : fatal error LNK1120: 61 unresolved externals

@@ -1,0 +1,61 @@
+﻿  Camera.cpp
+  main.cpp
+C:\Users\user\source\repos\OpenGL_Project\OpenGL_Project\main.cpp(151,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\source\repos\OpenGL_Project\OpenGL_Project\main.cpp(152,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\source\repos\OpenGL_Project\OpenGL_Project\main.cpp(170,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\source\repos\OpenGL_Project\OpenGL_Project\main.cpp(170,21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Mesh.cpp
+C:\Users\user\source\repos\OpenGL_Project\OpenGL_Project\Mesh.cpp(32,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model3D.cpp
+C:\Users\user\source\repos\OpenGL_Project\OpenGL_Project\Model3D.cpp(89,40): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=GLuint
+          ]
+C:\Users\user\source\repos\OpenGL_Project\OpenGL_Project\Model3D.cpp(97,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Shader.cpp
+  SkyBox.cpp
+  stb_image.cpp
+  tiny_obj_loader.cpp
+  Window.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4286: symbol '__glewActiveTexture' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewActiveTexture' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol '__glewBindBuffer' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBindBuffer' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol '__glewBufferData' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBufferData' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol '__glewGenBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGenBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol '__glewEnableVertexAttribArray' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewEnableVertexAttribArray' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol '__glewGetUniformLocation' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGetUniformLocation' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol '__glewUniform1i' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewUniform1i' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol '__glewVertexAttribPointer' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewVertexAttribPointer' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol '__glewBindVertexArray' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBindVertexArray' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol '__glewGenVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGenVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4286: symbol '__glewDeleteBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewGenerateMipmap' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewDeleteVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewAttachShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewCompileShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewCreateProgram' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewCreateShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewDeleteShader' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetProgramInfoLog' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetProgramiv' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetShaderInfoLog' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewGetShaderiv' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewLinkProgram' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewShaderSource' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewUseProgram' defined in 'libglew32.lib(glew.obj)' is imported by 'Shader.obj'
+LINK : warning LNK4286: symbol '__glewUniformMatrix4fv' defined in 'libglew32.lib(glew.obj)' is imported by 'SkyBox.obj'
+LINK : warning LNK4217: symbol 'glewInit' defined in 'libglew32.lib(glew.obj)' is imported by 'Window.obj' in function '"public: void __cdecl gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QEAAXHHPEBD@Z)'
+LINK : warning LNK4286: symbol 'glewExperimental' defined in 'libglew32.lib(glew.obj)' is imported by 'Window.obj'
+  OpenGL_Project.vcxproj -> C:\Users\user\source\repos\OpenGL_Project\x64\Debug\OpenGL_Project.exe
